@@ -56,3 +56,9 @@ export const fetchProjectSingle = (project_id) => {
     return res.data;
   });
 };
+
+export const fetchSeries = (series_id) => {
+  return api.get(`/series/${series_id}`).then((res) => {
+    return res.data;
+  });
+};

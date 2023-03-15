@@ -15,6 +15,7 @@ import BookSingle from "./components/BookSingle";
 import Art from "./components/Art";
 import ArtSingle from "./components/ArtSingle";
 import ArtCollage from "./components/ArtCollage";
+import Series from "./components/Series";
 import PiGrid from "./components/PiGrid";
 
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/art" element={<Art />} />
           <Route path="/art/:art_id" element={<ArtSingle />} />
           <Route path="/art/collage/:threeWords" element={<ArtCollage />} />
+          <Route path="/series/:series_id" element={<Series />} />
           <Route path="/pi" element={<PiGrid />} />
         </Routes>
       </div>

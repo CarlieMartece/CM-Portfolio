@@ -49,7 +49,7 @@ export default function ArtSingle() {
 
           <div className="art__info">
             <p>Made from: {data.art[0].made_from}</p>
-            <p>Series: {data.art[0].series_name}</p>
+            <p>Series: <Link to={`/series/${data.art[0].series_id}`}>{data.art[0].series_name}</Link> </p>
             {data.art[0].price === -1 ? (
               <></>
             ) : (
