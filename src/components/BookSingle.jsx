@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { ExternalLink } from "react-external-link";
 import { useEffect, useState } from "react";
 import { fetchBookSingle } from "../api";
@@ -41,7 +41,7 @@ export default function BookSingle() {
                 )}
               </div>
               <p className="book_info">
-                {data.book.series_name}: {data.book.sequence_no}
+              <Link to={`/series/${data.book.series_id}`}>{data.book.series_name}</Link>: {data.book.sequence_no}
               </p>
               <p className="book_info">Release date: {releaseDate}</p>
             </div>

@@ -44,6 +44,7 @@ export default function Series() {
                 return (
                   <ArtCard
                     key={item.art_id}
+                    customLink={item.custom_link}
                     artId={item.art_id}
                     stockId={item.stock_id}
                     altText={item.alt_text}

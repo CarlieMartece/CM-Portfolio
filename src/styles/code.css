@@ -49,6 +49,10 @@
   margin-top: 10px;
 }
 
+.mobile {
+  margin-bottom: 10px;
+}
+
 .tagline {
   color: #b3b3b3;
   font-style: italic;

@@ -100,7 +100,7 @@ export default function ArtCollage() {
               </div>
             )}
             <p>Made from: {mainPic.made_from}</p>
-            <p>Series: {data.collage[stockIds[0]].series_name}</p>
+            <p>Series: <Link to={`/series/${data.collage[stockIds[0]].series_id}`}>{data.collage[stockIds[0]].series_name}</Link></p>
             {data.collage[stockIds[0]].price === -1 ? (
               <></>
             ) : (
