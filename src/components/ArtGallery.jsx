@@ -31,7 +31,7 @@ export default function ArtGallery({ selectedYear, category, selectedColour }) {
         <h3>Loading...</h3>
       ) : (
         <>
-          <div className="ArtGalleryYears">
+          <div className="ArtGallery">
               <ul className="gallery">
                 {artData.map((item) => {
                   return (

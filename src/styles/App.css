@@ -121,6 +121,20 @@ main p {
   width: 7px;
 }
 
+.series__heading {
+  text-align: center;
+}
+
+.series__heading h2 {
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+.series__heading p {
+  color: darkgrey;
+  margin-top: 0;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }

@@ -46,7 +46,7 @@ export default function ArtGalleryYears({ previousYear, category }) {
             </>
             
           ) : (
-            <div className="ArtGalleryYears">
+            <div className="ArtGallery">
               <ul className="gallery">
                 {artData.map((item) => {
                   return (
@@ -57,8 +57,6 @@ export default function ArtGalleryYears({ previousYear, category }) {
                       stockId={item.stock_id}
                       altText={item.alt_text}
                       threeWords={item.three_word_description}
-                      closeArray={item.close_ups}
-                      isClose={item.is_close_up}
                     />
                   );
                 })}
