@@ -15,7 +15,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://carliemartece.com/)
 
 This is a portfolio of Carlie Martece's artistic, literary and code creations. It began as a hybrid of two previous sites:
-* The original art and writing portfolio before they started their digital journey. This was an aesthetic but static presentation of work, coded in HTML and CSS only.
+* The original art and writing portfolio before they started their digital journey. This was a well-presented but static site, coded in HTML and CSS only.
 * The Northcoders bootcamp solo project, NC News. This was Carlie's first dynamic site, using PostreSQL, Express, React and Node.JS to create a full-stack application.
 
 The idea was to combine the design of the original portfolio with the dynamic qualities of the NC News site. This allows for creations to be filtered by Year, Color and Category, with further search capabilities planned for the future.
