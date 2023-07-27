@@ -23,7 +23,7 @@ export default function ArtGallery({ selectedYear, category, selectedColour }) {
       });
     }
   }, [year, category, selectedColour]);
-  //if (!isLoading) console.log(artData)
+  if (!isLoading) console.log(artData)
 
   return (
     <>
